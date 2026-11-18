@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Data Lakehouse Local Artifacts (Bronze, Silver, Gold)
+data/
+*.parquet
+*.csv
+*.duckdb
+*.duckdb.wal
+
+# Prefect & Logs
+.prefect/
+*.log
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
